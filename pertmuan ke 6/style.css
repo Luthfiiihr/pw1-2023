@@ -1,0 +1,104 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: Arial;
+    background-color: gray;
+    color: black;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+
+}
+
+.judul {
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+
+header {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+section{
+background-color: azure;
+margin: 20px 250px 0px;
+text-align: left;
+padding: 20px;
+border-radius: 5px;
+box-shadow: 0 2px 5px rgba( 0, 0, 0, 0,1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="number"],
+form input[type="date"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: red;
+    border-radius: 40px;
+}
+
+section h1 {
+    text-align: center;
+}
+
+section h3 {
+    text-align: left;
+}
+
+.atas {
+    background-color: pink;
+    color: white;
+}
+
+img {
+    margin-left: 40px;
+    margin-right: 10px;
+    
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
