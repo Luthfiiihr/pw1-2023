@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <style>
+        body {
+            text-align: center;
+        }
+
+        form > label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        form > button {
+            margin-top: 10px;
+        }
+
+    </style>
+</head>
+<body>
+
+<fieldset>
+    <h1>Login Form</h1>
+    <form id="loginForm" autocomplete="off">
+        <label for="username">Username:
+        <input id="username" name="username" type="text" maxlength="30" autofocus required></label>
+
+        <label for="password">Password:
+        <input type="password" name="password" id="password" required></label>
+
+        <button type="button" onclick="validateForm()">Submit</button>
+
+    </fieldset>
+
+
+        <script src="auth.js"></script>
+    </form>
+</body>
